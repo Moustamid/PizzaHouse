@@ -1,0 +1,51 @@
+cd Desktop\LaravelNinja\pizzahouse
+
+PHP commandes : 
+
+- php artisan serve 
+
+
+MySQL commandes : 
+
+-  mysql -u root
+
+- create database MXPizza 
+
+
+Migrations : 
+
+- php artisan make:Migration name-table 
+
+- php artisan 
+
+- php artisan migrate
+
+- php artisan migrate:status
+
+ 
+
+Eloquent : (models) :
+
+-php artisan make:model name 
+
+
+SCSS : 
+
+- to compaile : npm run dev
+
+
+Auth Setup : 
+
+- composer require laravel/ui
+  
+- php artisan ui vue --auth   
+
+- npm install 
+
+- npm run dev 
+
+
+
+for new models : generate : model & controller & migration  : 
+
+-php artisan make:model name -mc
